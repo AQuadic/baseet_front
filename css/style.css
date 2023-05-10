@@ -1735,6 +1735,7 @@ gap: 30px;
   font-size: 16px;
 line-height: 30px;
 color: black;
+direction: ltr;
 }
 
 .contactUs .part_contactUs .part2{
