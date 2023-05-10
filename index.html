@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="daseet" />
+    <meta name="keywords" content="daseet" />
+    <title>daseet</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-minimal.min.css"
+      integrity="sha512-Jeqp8CoPCvf9tf/uWokfCTsFcv5BIhfTYaTTJA0NKn6B88zDSWe5d/9HTmZX63FGpGGQdB8Chg2khB96+wn4Tw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container" style="gap: 40px">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./images/daseet.svg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourClients.html">عملائنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUS.html">عن الشركة</a>
+            </li>
+          </ul>
+          <div class="endnav">
+            <!-- if you need "Sign In" add className "hide" to dropdown -> and true otherwise  -->
+
+            <div style="display: flex; gap: 14px">
+              <a href="contactUs.html" class="btn_page3 btn_nav">تواصل معنا</a>
+              <a href="#" class="btn_page2 btn_nav">تجربة الخدمة مجانا</a>
+            </div>
+            <button class="btn-lang" type="button">
+              <img src="./images/lang.svg" alt="lang" />
+              <p class="f-b">ع</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="header">
+      <div class="container">
+        <div class="part1">
+          <img src="./images/headerimg.webp" alt="headerimg" />
+          <div class="about_header">
+            <h2>انقل التصنيع إلى السحابة</h2>
+            <p>
+              كل ميزات المخزون والإنتاج والمحاسبة التي تحتاجها - لا أكثر. يعمل
+              برنامج التصنيع السحابي من بسيط حول عملك ، وليس العكس.
+            </p>
+          </div>
+        </div>
+        <section class="numbers container">
+          <div
+            class="item wow flipInX"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+            data-wow-delay="1s"
+          >
+            <img src="./images/calendar.webp" alt="calendar" />
+            <h3 class="odometer" data-from="0" data-to="10" id="odometer">0</h3>
+            <p>سنوات الخبرة</p>
+          </div>
+          <div
+            class="item wow flipInX"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+            data-wow-delay="1s"
+          >
+            <img src="./images/customer-service.webp" alt="customer-service" />
+            <h3 class="odometer" data-from="0" data-to="5" id="odometer">0</h3>
+            <p>خدماتنا</p>
+          </div>
+          <div
+            class="item wow flipInX"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+            data-wow-delay="1s"
+          >
+            <img src="./images/rating.webp" alt="rating" />
+            <h3 class="odometer" data-from="0" data-to="5200" id="odometer">
+              0
+            </h3>
+            <p>عملائنا</p>
+          </div>
+          <div
+            class="item wow flipInX"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+            data-wow-delay="1s"
+          >
+            <img src="./images/coronavirus.webp" alt="coronavirus" />
+            <h3 class="odometer" data-from="0" data-to="5" id="odometer">0</h3>
+            <p>الدول</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="info_about">
+          <div class="title_header">
+            <span style="background-color: white"></span>
+            <h2 style="color: #ffffff">أحدى أفضل شركات البرمجيات لخدماتك</h2>
+          </div>
+          <h3 class="title_header2" style="color: #ffffff">شركة بسيط</h3>
+          <p>
+            شركة Basset ! احدى الشركات الرائدة فى السوق المصرى والعربى فى مجال
+            تكنولوجيا المعلومات،- حققت العديد من الإنجازات فى تلك الفترة القصيرة
+            واستحوذت على ثقة العملاء وأصبح لدينا عملاء نعتز بهم من مختلف الدول
+            العربية - قمنا بإنتاج العديد من الحلول البرمجية المناسبة لجميع
+            الأعمال والتى راعينا في تطويرها عدد من المعايير التى تضمن تحقيق أقصى
+            إنجاز وأستفادة وحماية لأعمال عملائنا بشكل إحترافى.
+          </p>
+        </div>
+        <img src="./images/aboutImg.webp" class="aboutImg" alt="aboutImg" />
+      </div>
+    </section>
+
+    <section class="partners mb80">
+      <div class="container">
+        <div class="title_header">
+          <span style="background-color: #4ac1d9"></span>
+          <h2>أكتر من 5000 عميل وثقوا فى خدماتنا</h2>
+        </div>
+        <h3 class="title_header2">شركاء النجاح</h3>
+        <div class="logos">
+          <div class="logos-slide">
+            <img src="./images/image15.webp" alt="Programs" />
+            <img src="./images/image16.webp" alt="Programs" />
+            <img src="./images/image17.webp" alt="Programs" />
+            <img src="./images/image18.webp" alt="Programs" />
+            <img src="./images/image19.webp" alt="Programs" />
+            <img src="./images/image20.webp" alt="Programs" />
+          </div>
+          <div class="logos-slide">
+            <img src="./images/image15.webp" alt="Programs" />
+            <img src="./images/image16.webp" alt="Programs" />
+            <img src="./images/image17.webp" alt="Programs" />
+            <img src="./images/image18.webp" alt="Programs" />
+            <img src="./images/image19.webp" alt="Programs" />
+            <img src="./images/image20.webp" alt="Programs" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work container mb80" id="myDiv">
+      <div class="parts">
+        <div class="part1">
+          <h2 class="title_header2">مراحل العمل</h2>
+          <p>براعة التخطيط من اهم عوامل التميز والنجاح</p>
+          <a href="#" class="btn_page3">سجل طلبك و تواصل معنا</a>
+        </div>
+        <div class="part2">
+          <span id="mySpan"></span>
+        </div>
+        <div class="part3">
+          <div class="part">
+            <img src="./images/businessreport.webp" alt="businessreport" />
+            <h3>نقوم فى البداية بعمل تخطيط حول التصور الكامل الخاص بالمشروع</h3>
+          </div>
+          <div class="part">
+            <img src="./images/todolist.webp" alt="todolist" />
+            <h3>مرحلة التنفيذ وتختلف المدة حسب حجم المشروع</h3>
+          </div>
+          <div class="part">
+            <img src="./images/graphictablet.webp" alt="graphictablet" />
+            <h3>مراجعة هذا التصور مع العميل وعمل التعديلات اللازمة</h3>
+          </div>
+          <div class="part">
+            <img src="./images/website.webp" alt="website" />
+            <h3>
+              مرحلة تسليم الهيكل النهائى للمشروع ومراجعته مع العميل ووضع اللمسات
+              الاخيرة
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services container mb80">
+      <div class="title_header">
+        <span style="background-color: #4ac1d9"></span>
+        <h2>خدمات محاسبية وادارية تغطى كافة المجالات</h2>
+      </div>
+      <h3 class="title_header2">خدماتنا</h3>
+      <div class="all_services">
+        <div class="service">
+          <img src="./images/service1.webp" class="img_service" alt="service" />
+          <h4>برنامج إدارة المدارس Edu Step Up</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+        <div class="service">
+          <img src="./images/service2.webp" class="img_service" alt="service" />
+          <h4>برنامج ادارة المستشفيات Medi Master</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+        <div class="service">
+          <img src="./images/service3.webp" class="img_service" alt="service" />
+          <h4>برنامج محاسبة Easy Store Platinum</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+        <div class="service">
+          <img src="./images/service1.webp" class="img_service" alt="service" />
+          <h4>برنامج إدارة المدارس Edu Step Up</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+        <div class="service">
+          <img src="./images/service2.webp" class="img_service" alt="service" />
+          <h4>برنامج ادارة المستشفيات Medi Master</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+        <div class="service">
+          <img src="./images/service3.webp" class="img_service" alt="service" />
+          <h4>برنامج محاسبة Easy Store Platinum</h4>
+          <a href="#" class="more_service">قراءة المزيد ...</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients container mb80">
+      <div class="title_header">
+        <span style="background-color: #1a3b6e"></span>
+        <h2>جاهزين للخدمة علي مستوى الوطن العربي اكمل</h2>
+      </div>
+      <h3 class="title_header2">عملائنا</h3>
+      <img
+        src="./images/clientsimg.webp"
+        class="clients_img"
+        alt="clients_img"
+      />
+      <div class="contact">
+        <div class="info_contact">
+          <h4>تواصل معنا</h4>
+          <h5>للتعرف على المزيد حول خدمات شركة بسيط للحلول البرمجية</h5>
+          <ul>
+            <li>
+              <a href="tel:+201020875701">
+                <img src="./images/telephone.webp" alt="phone" />
+                <p style="direction: ltr">+20 125 124 1254</p>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:" target="_blank">
+                <img src="./images/mail.webp" alt="email" />
+                <p>example@gmail.com</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="contactUs.html" class="btn_page2"> تواصل معنا</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="container fotter_content">
+          <div class="head">
+            <h1>
+              <a href="index.html"
+                ><img src="./images/daseet.svg" alt="logo"
+              /></a>
+            </h1>
+            <p>
+              شركة Basset ! احدى الشركات الرائدة فى السوق المصرى والعربى فى مجال
+              تكنولوجيا المعلومات،-
+            </p>
+          </div>
+          <div class="part">
+            <h2>الصفحات</h2>
+            <div class="links">
+              <a href="index.html">الرئيسية</a>
+              <a href="aboutUs.html">عن الشركة</a>
+              <a href="programs.html">خدماتنا</a>
+              <a href="ourClients.html">عملائنا</a>
+              <a href="contactUs.html">تواصل معنا</a>
+            </div>
+          </div>
+          <div class="part">
+            <h2>الخدمات</h2>
+            <div class="links">
+              <a href="programDetails.html">برنامج محاسبة ضريبية</a>
+              <a href="programDetails.html">برنامج للمستشفيات </a>
+              <a href="programDetails.html">برنامج مدارس</a>
+              <a href="programDetails.html">نظام المدفوعات المتكامل</a>
+              <a href="programDetails.html"> برنامج حسابات</a>
+            </div>
+          </div>
+          <div class="part">
+            <h2>تواصل معنا</h2>
+            <div class="contact2">
+              <a href="tel:+201020875701">
+                <img src="./images/telephone.webp" alt="phone" />
+                <p style="direction: ltr">+20 125 124 1254</p>
+              </a>
+
+              <a href="mailto:" target="_blank">
+                <img src="./images/mail.webp" alt="email" />
+                <p>example@gmail.com</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p>©All rights reserved.</p>
+          <div class="links_social">
+            <a href="https://www.facebook.com/MegamindsEgypt" target="_blank">
+              <img src="./images/facebook.webp" alt="facebook" />
+            </a>
+            <a href="" target="_blank">
+              <img src="./images/linkedin.webp" alt="linkedin" />
+            </a>
+            <a href="https://www.instagram.com/megamind.kids/" target="_blank">
+              <img src="./images/instagram.webp" alt="instagram" />
+            </a>
+            <a href="" target="_blank">
+              <img src="./images/twitter.webp" alt="twitter" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"></script>
+    <script>
+      const numbers = document.querySelectorAll(".odometer");
+      numbers.forEach((number, i) => {
+        const value = number.dataset.to;
+        setInterval(() => (odometer[i].innerHTML = value), 100);
+      });
+
+      let myDiv = document.getElementById("myDiv");
+      let mySpan = document.getElementById("mySpan");
+      let myDivOffsetTop = myDiv.offsetTop;
+      let myDivHeight = myDiv.offsetHeight;
+      window.addEventListener("scroll", function () {
+        let scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        if (
+          scrollTop >= myDivOffsetTop &&
+          scrollTop <= myDivOffsetTop + myDivHeight
+        ) {
+          let percentage =
+            ((scrollTop - myDivOffsetTop) / myDivHeight) * 100 + 20;
+          mySpan.style.height = percentage + "%";
+          console.log(
+            "The percentage scrolled within myDiv is: " + percentage + "%"
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
