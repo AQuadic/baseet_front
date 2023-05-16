@@ -499,6 +499,7 @@ footer .part {
   flex-direction: column;
   gap: 20px;
   margin-top: 26px;
+  max-width: 300px;
 }
 
 footer h1 a {
@@ -656,8 +657,7 @@ html[dir="rtl"] footer .part .contUS {
     flex-wrap: wrap;
   }
   footer .part .links a {
-    min-width: max-content;
-    width: 32%;
+   width: 100%;
   }
 }
 /*==================================end footer==============================*/
